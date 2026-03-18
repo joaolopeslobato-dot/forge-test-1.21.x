@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "testemod:block/raw_alexandrite_block"
+    }
+  }
+}
