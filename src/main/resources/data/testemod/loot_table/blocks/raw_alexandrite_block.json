@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "bonus_rolls": 0.0,
+    "condition": [{
+      "condition": "minecraft:survives_explosion"
+    }],
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "testemod:raw_alexandrite_block"
+    }],
+    "rolls": 1.0
+  }],
+  "random_sequence": "testemod:blocks/raw_alexandrite_block"
+}

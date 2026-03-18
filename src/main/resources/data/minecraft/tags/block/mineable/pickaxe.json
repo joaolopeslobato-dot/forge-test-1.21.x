@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "testemod:alexandrite_block",
+    "testemod:raw_alexandrite_block",
+    "testemod:alexandrite_ore",
+    "testemod:alexandrite_deepslate_ore"
+  ]
+}
