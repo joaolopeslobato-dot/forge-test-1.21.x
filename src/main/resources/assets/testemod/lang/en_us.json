@@ -3,5 +3,8 @@
   "item.testemod.raw_alexandrite": "Raw Alexandrite",
 
   "block.testemod.alexandrite_block": "Alexandrite Block",
-  "block.testemod.raw_alexandrite_block": "Raw Alexandrite Block"
+  "block.testemod.raw_alexandrite_block": "Raw Alexandrite Block",
+
+  "creativetab.testemod.alexandrite_items": "Alexandrite Items",
+  "creativetab.testemod.alexandrite_blocks": "Alexandrite Blocks"
 }

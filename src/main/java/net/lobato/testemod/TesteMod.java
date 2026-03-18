@@ -2,6 +2,7 @@ package net.lobato.testemod;
 
 import com.mojang.logging.LogUtils;
 import net.lobato.testemod.block.ModBlocks;
+import net.lobato.testemod.item.ModCreativeModeTabs;
 import net.lobato.testemod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -33,6 +34,8 @@ public class TesteMod
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
